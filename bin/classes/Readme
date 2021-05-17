@@ -1,0 +1,39 @@
+Naming:
+	i used Camel Case (aka Upper Camel Case) for classes: ContactDetails
+	i used Lower Case for packages: classes
+	i used Mixed Case (aka Lower Camel Case) for variables and methods: phoneNumber
+	i used Upper Case for constants : MAX_PARAMETER_COUNT = 100
+	i used Camel Case for enum class names and Upper Case for enum values.
+===========================================================================
+Address class Note:
+In most of the world, addresses are written in order from most specific to general, 
+i.e. finest to coarsest information, starting with the addressee and ending with the largest geographical unit
+
+what i used in my application as following:
+	Street
+	City area/District
+	County
+	Postal code
+
+example:
+	Street name + number
+	Postal code + Town
+	COUNTRY (if it's on abroad)	
+	
+	Nezábudková 3084/25
+	84545 Bratislava
+	Slovensko
+===========================================================================
+Account: International Bank Account Number
+https://en.wikipedia.org/wiki/International_Bank_Account_Number
+https://www.iban.com/structure
+Structure
+The IBAN consists of up to 34 alphanumeric characters, as follows:
+
+country code using ISO 3166-1 alpha-2 – two letters,
+check digits – two digits, and
+Basic Bank Account Number (BBAN) – up to 30 alphanumeric characters that are country-specific.
+
+in my case ii used the Slovak structure which is SK90 + 20 digits randomly uniquely generated
+============================================================================
+Joint account: attach two clients ID so they can use it both of them as a secondary account 

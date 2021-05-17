@@ -1,0 +1,7 @@
+I am creating a valdation module using validation class and a Visitor pattern 
+to validate arbitrary business/infrastructure rules.
+
+i needed to define a generic validation interface, 
+as I have lots of entity classes that need validation .....:
+
+I also created the “IValidatable” interface so I can keep track of what can be validated and what can’t
